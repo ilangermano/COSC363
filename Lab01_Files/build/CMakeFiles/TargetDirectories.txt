@@ -1,0 +1,4 @@
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab01_Files/build/CMakeFiles/Teapot.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab01_Files/build/CMakeFiles/Model3d.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab01_Files/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab01_Files/build/CMakeFiles/rebuild_cache.dir

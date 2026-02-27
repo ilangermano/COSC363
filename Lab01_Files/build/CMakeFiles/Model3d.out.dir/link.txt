@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Model3d.out.dir/Model3D.cpp.o -o Model3d.out  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so 
