@@ -1,0 +1,5 @@
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab03_Files/build/CMakeFiles/ToyTrain.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab03_Files/build/CMakeFiles/Yard.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab03_Files/build/CMakeFiles/Earth.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab03_Files/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab03_Files/build/CMakeFiles/rebuild_cache.dir
