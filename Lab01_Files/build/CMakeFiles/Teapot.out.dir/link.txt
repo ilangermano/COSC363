@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/Teapot.out.dir/Teapot.cpp.o -o Teapot.out  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so 
+/usr/bin/g++ CMakeFiles/Teapot.out.dir/Teapot.cpp.o -o Teapot.out  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so 

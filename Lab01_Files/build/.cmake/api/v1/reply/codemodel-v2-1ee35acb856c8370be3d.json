@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab1",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Model3d.out::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Model3d.out-e9232b2cf2dc236cc667.json",
+					"name" : "Model3d.out",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Teapot.out::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Teapot.out-01b710d6d8be4ed1394a.json",
+					"name" : "Teapot.out",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab01_Files/build",
+		"source" : "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab01_Files"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

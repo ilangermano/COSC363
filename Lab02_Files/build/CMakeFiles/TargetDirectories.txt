@@ -1,0 +1,4 @@
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/build/CMakeFiles/Cannon.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/build/CMakeFiles/Humanoid.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/build/CMakeFiles/rebuild_cache.dir

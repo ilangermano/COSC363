@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Cannon.out.dir/Cannon.cpp.o -c \"/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/Cannon.cpp\"",
+  "file": "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/Cannon.cpp",
+  "output": "CMakeFiles/Cannon.out.dir/Cannon.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Humanoid.out.dir/Humanoid.cpp.o -c \"/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/Humanoid.cpp\"",
+  "file": "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab02_Files/Humanoid.cpp",
+  "output": "CMakeFiles/Humanoid.out.dir/Humanoid.cpp.o"
+}
+]
