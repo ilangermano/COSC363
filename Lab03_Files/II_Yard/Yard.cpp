@@ -36,13 +36,21 @@ void loadTexture() {
 void special(int key, int x, int y) {
 	if 		(key == GLUT_KEY_LEFT)  angle -= 0.1;  //Change direction
 	else if (key == GLUT_KEY_RIGHT) angle += 0.1;
-	else if (key == GLUT_KEY_DOWN)  { //Move backward
-		eye_x -= 0.1*sin(angle);
-		eye_z += 0.1*cos(angle);
+	else if (key == GLUT_KEY_DOWN)  {
+		float new_x = eye_x - 0.1*sin(angle);
+		float new_z = eye_z + 0.1*cos(angle);
+		if (new_x < 14 && new_x > -14 && new_z< 14 && new_z > -14) {
+			eye_x = new_x;
+			eye_z = new_z;
+		}
 	}
 	else if (key == GLUT_KEY_UP)	{ //Move forward
-		eye_x += 0.1*sin(angle);
-		eye_z -= 0.1*cos(angle);
+		float new_x = eye_x + 0.1*sin(angle);
+		float new_z = eye_z - 0.1*cos(angle);
+		if (new_x < 14 && new_x > -14 && new_z < 14 && new_z > -14) {
+			eye_x = new_x;
+			eye_z = new_z;
+		}
 	}
 
 	look_x = eye_x + 100*sin(angle);
@@ -52,45 +60,73 @@ void special(int key, int x, int y) {
 
 //-- Initialize OpenGL parameters ------------------------------------------
 void initialise() { 
-//	loadTexture();	
-//	glEnable(GL_TEXTURE_2D);
+	loadTexture();	
+	glEnable(GL_TEXTURE_2D);
 	glClearColor(0., 1., 1., 1.);    //Background colour 	
 	glEnable(GL_DEPTH_TEST);
 }
 
 //--------------------------------------------------------------------------
 void walls() {
-	glColor3f(0.8, 0.7, 0.3);   //replace with a texture
-
+	glBindTexture(GL_TEXTURE_2D, txId[0]);
 	glBegin(GL_QUADS);
 
 	////////////////////// BACK WALL ///////////////////////
 
+	glTexCoord2f(0.0f, 2.0f);
 	glVertex3f(-15, 1, -15);
+	
+	glTexCoord2f(0.0f, 0.0f);
 	glVertex3f(-15, -1, -15);
+	
+	glTexCoord2f(12.0f, 0.0f);
 	glVertex3f(15, -1, -15);
+	
+	glTexCoord2f(12.0f, 2.0f);
 	glVertex3f(15, 1, -15);
+
 
 	////////////////////// FRONT WALL ///////////////////////
 
+	glTexCoord2f(0.0f, 2.0f);
 	glVertex3f(-15, 1, 15);
+
+	glTexCoord2f(0.0f, 0.0f);
 	glVertex3f(-15, -1, 15);
+
+	glTexCoord2f(12.0f, 0.0f);
 	glVertex3f(15, -1, 15);
+
+	glTexCoord2f(12.0f, 2.0f);
 	glVertex3f(15, 1, 15);
 
 	////////////////////// LEFT WALL ///////////////////////
 
+	glTexCoord2f(0.0f, 2.0f);
 	glVertex3f(-15, 1, -15);
+
+	glTexCoord2f(0.0f, 0.0f);
 	glVertex3f(-15, -1, -15);
+
+	glTexCoord2f(12.0f, 0.0f);
 	glVertex3f(-15, -1, 15);
+
+	glTexCoord2f(12.0f, 2.0f);
 	glVertex3f(-15, 1, 15);
 
 
 	////////////////////// RIGHT WALL ///////////////////////
 
+	glTexCoord2f(0.0f, 2.0f);
 	glVertex3f(15, 1, -15);
+
+	glTexCoord2f(0.0f, 0.0f);
 	glVertex3f(15, -1, -15);
+
+	glTexCoord2f(12.0f, 0.0f);
 	glVertex3f(15, -1, 15);
+
+	glTexCoord2f(12.0f, 2.0f);
 	glVertex3f(15, 1, 15);
 
 	glEnd();
@@ -98,12 +134,20 @@ void walls() {
 
 //--------------------------------------------------------------------------
 void floor() {
-	glColor3d(0.6, 0.25, 0.25);  //replace with a texture
+	glBindTexture(GL_TEXTURE_2D, txId[1]);
 
 	glBegin(GL_QUADS);
+
+		glTexCoord2f(0.0f, 0.0f);
 		glVertex3f(-15, -1, -15);
+	
+		glTexCoord2f(0.0f, 16.0f);
 		glVertex3f(-15, -1, 15);
+	
+		glTexCoord2f(16.0f, 16.0f);
 		glVertex3f(15, -1, 15);
+	
+		glTexCoord2f(16.0f, 0.0f);
 		glVertex3f(15, -1, -15);
 	glEnd();
 }

@@ -13,7 +13,7 @@ using namespace std;
 GLuint txId[2];
 GLUquadricObj*	q;
 float rotnEarthAxis = 0.;  //Rotation of the Earth about its own axis
-
+float angle = 0.;			//Rotation of the Earth about the Sun
 //--------------------------------------------------------------------------
 void loadTexture() {
 	glGenTextures(2, txId);   //Get 2 texture IDs 
@@ -31,7 +31,7 @@ void loadTexture() {
 //-- Initialize OpenGL parameters ------------------------------------------
 void initialise() {
 	loadTexture();
-
+	glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
 	glClearColor(0., 0., 0., 1.); 	 //Background
 	glClearDepth(1.);
 	glEnable(GL_DEPTH_TEST);
@@ -62,13 +62,17 @@ void display() {
 	glLoadIdentity();  	
 	gluLookAt(0., 0., 40., 0., 0., 0., 0., 1., 0.);
 	
+	float origin[] = {0., 0., 0., 1.};	//Light source position
+	glLightfv(GL_LIGHT0, GL_POSITION, origin);
+
 	glColor4f(1., 1., 1., 1.);        //Base colour
 	
 	//Earth
 	glBindTexture(GL_TEXTURE_2D, txId[0]);
-	glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE);	
+	glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);	
 	glPushMatrix();
-		glTranslatef(20., 0., 0.);			//Translate Earth along x-axis by 20 units	
+		glRotatef(angle, 0., 1., 0.);		//Rotate about the Sun
+		glTranslatef(20., 0., 0.);			//Translate to the Earth position
 		glRotatef(rotnEarthAxis, 0, 1, 0);	//Rotate about polar axis of the Earth
 		glRotatef(-90., 1., 0., 0.);		//make the sphere axis vertical
 		gluSphere(q, 3.0, 36, 17 );
@@ -89,6 +93,8 @@ void display() {
 void timer(int value) {
 	rotnEarthAxis += 2.;
 	if (rotnEarthAxis > 360.) rotnEarthAxis = 0.;
+	angle += 0.5;
+	if (angle > 360.) angle = 0.;
 	glutTimerFunc(50, timer, value);
 	glutPostRedisplay();
 }
