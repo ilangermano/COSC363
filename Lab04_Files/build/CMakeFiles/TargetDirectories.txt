@@ -1,0 +1,4 @@
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab04_Files/build/CMakeFiles/Walls.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab04_Files/build/CMakeFiles/Vase.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab04_Files/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/Lab04_Files/build/CMakeFiles/rebuild_cache.dir
