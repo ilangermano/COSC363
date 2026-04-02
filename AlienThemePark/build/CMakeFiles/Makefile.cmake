@@ -7,10 +7,19 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/mnt/c/Users/ilanp/OneDrive/Desktop/2026/COSC363/AlienThemePark/CMakeLists.txt"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/CMakeLists.txt"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/Earth.bmp"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/Moon.tga"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/Sun.bmp"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/space_bk.tga"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/space_dn.tga"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/space_ft.tga"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/space_lf.tga"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/space_rt.tga"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/space_up.tga"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -45,6 +54,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "Earth.bmp"
+  "Moon.tga"
+  "Sun.bmp"
+  "space_bk.tga"
+  "space_dn.tga"
+  "space_ft.tga"
+  "space_lf.tga"
+  "space_rt.tga"
+  "space_up.tga"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

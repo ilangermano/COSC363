@@ -1,3 +1,3 @@
-/mnt/c/Users/ilanp/OneDrive/Desktop/2026/COSC363/AlienThemePark/build/CMakeFiles/AlienThemePark.out.dir
-/mnt/c/Users/ilanp/OneDrive/Desktop/2026/COSC363/AlienThemePark/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/ilanp/OneDrive/Desktop/2026/COSC363/AlienThemePark/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/build/CMakeFiles/AlienThemePark.out.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/build/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,5 @@
 CMakeFiles/AlienThemePark.out.dir/main.cpp.o: \
- /mnt/c/Users/ilanp/OneDrive/Desktop/2026/COSC363/AlienThemePark/main.cpp \
+ /mnt/c/Users/GGPC/Desktop/Computer\ Science/2026/COSC363/AlienThemePark/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -172,7 +172,7 @@ CMakeFiles/AlienThemePark.out.dir/main.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /mnt/c/Users/ilanp/OneDrive/Desktop/2026/COSC363/AlienThemePark/loadTGA.h \
+ /mnt/c/Users/GGPC/Desktop/Computer\ Science/2026/COSC363/AlienThemePark/loadTGA.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
@@ -184,4 +184,5 @@ CMakeFiles/AlienThemePark.out.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/GL/glu.h \
  /usr/include/c++/13/stdlib.h /usr/include/GL/freeglut_ext.h \
  /usr/include/GL/freeglut_ucall.h \
- /mnt/c/Users/ilanp/OneDrive/Desktop/2026/COSC363/AlienThemePark/loadBMP.h
+ /mnt/c/Users/GGPC/Desktop/Computer\ Science/2026/COSC363/AlienThemePark/loadBMP.h \
+ /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h

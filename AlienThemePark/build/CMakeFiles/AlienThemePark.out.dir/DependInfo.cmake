@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/ilanp/OneDrive/Desktop/2026/COSC363/AlienThemePark/main.cpp" "CMakeFiles/AlienThemePark.out.dir/main.cpp.o" "gcc" "CMakeFiles/AlienThemePark.out.dir/main.cpp.o.d"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/main.cpp" "CMakeFiles/AlienThemePark.out.dir/main.cpp.o" "gcc" "CMakeFiles/AlienThemePark.out.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
