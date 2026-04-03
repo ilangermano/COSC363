@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/CMakeLists.txt"
   "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/Earth.bmp"
   "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/Moon.tga"
+  "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/Stone_Texture.tga"
   "/mnt/c/Users/GGPC/Desktop/Computer Science/2026/COSC363/AlienThemePark/Sun.bmp"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
@@ -56,6 +57,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "Earth.bmp"
   "Moon.tga"
+  "Stone_Texture.tga"
   "Sun.bmp"
   "space_bk.tga"
   "space_dn.tga"
