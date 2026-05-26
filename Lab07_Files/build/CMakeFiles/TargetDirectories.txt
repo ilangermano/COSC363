@@ -1,0 +1,3 @@
+/csse/users/ige22/Desktop/COSC363-new/Lab07_Files/build/CMakeFiles/RayTracer.out.dir
+/csse/users/ige22/Desktop/COSC363-new/Lab07_Files/build/CMakeFiles/edit_cache.dir
+/csse/users/ige22/Desktop/COSC363-new/Lab07_Files/build/CMakeFiles/rebuild_cache.dir
