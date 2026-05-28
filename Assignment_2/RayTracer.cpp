@@ -25,7 +25,7 @@ using namespace std;
 const float EDIST = 40.0;
 const int NUMDIV = 500;
 const int MAX_STEPS = 5;
-const bool ANTI_ALIASING  = true;
+const bool ANTI_ALIASING  = false;
 const bool SOFT_SHADOWS   = true; 
 const int  NUM_SHADOW_RAYS = 16;    
 const float LIGHT_RADIUS   = 1.2f;
