@@ -350,6 +350,8 @@ CMakeFiles/RayTracer.out.dir/Cylinder.cpp.o: /csse/users/ige22/Desktop/COSC363-n
   /usr/include/glm/detail/type_vec4.hpp \
   /usr/include/glm/detail/type_vec4.inl \
   /usr/include/glm/exponential.hpp \
+  /usr/include/glm/ext/matrix_clip_space.hpp \
+  /usr/include/glm/ext/matrix_clip_space.inl \
   /usr/include/glm/ext/matrix_double2x2.hpp \
   /usr/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/include/glm/ext/matrix_double2x3.hpp \
@@ -386,6 +388,12 @@ CMakeFiles/RayTracer.out.dir/Cylinder.cpp.o: /csse/users/ige22/Desktop/COSC363-n
   /usr/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/include/glm/ext/matrix_float4x4.hpp \
   /usr/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/include/glm/ext/matrix_projection.hpp \
+  /usr/include/glm/ext/matrix_projection.inl \
+  /usr/include/glm/ext/matrix_transform.hpp \
+  /usr/include/glm/ext/matrix_transform.inl \
+  /usr/include/glm/ext/scalar_constants.hpp \
+  /usr/include/glm/ext/scalar_constants.inl \
   /usr/include/glm/ext/scalar_int_sized.hpp \
   /usr/include/glm/ext/scalar_uint_sized.hpp \
   /usr/include/glm/ext/vector_bool2.hpp \
@@ -421,6 +429,10 @@ CMakeFiles/RayTracer.out.dir/Cylinder.cpp.o: /csse/users/ige22/Desktop/COSC363-n
   /usr/include/glm/fwd.hpp \
   /usr/include/glm/geometric.hpp \
   /usr/include/glm/glm.hpp \
+  /usr/include/glm/gtc/constants.hpp \
+  /usr/include/glm/gtc/constants.inl \
+  /usr/include/glm/gtc/matrix_transform.hpp \
+  /usr/include/glm/gtc/matrix_transform.inl \
   /usr/include/glm/integer.hpp \
   /usr/include/glm/mat2x2.hpp \
   /usr/include/glm/mat2x3.hpp \
@@ -1233,6 +1245,8 @@ CMakeFiles/RayTracer.out.dir/RayTracer.cpp.o: /csse/users/ige22/Desktop/COSC363-
   /usr/include/glm/detail/type_vec4.hpp \
   /usr/include/glm/detail/type_vec4.inl \
   /usr/include/glm/exponential.hpp \
+  /usr/include/glm/ext/matrix_clip_space.hpp \
+  /usr/include/glm/ext/matrix_clip_space.inl \
   /usr/include/glm/ext/matrix_double2x2.hpp \
   /usr/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/include/glm/ext/matrix_double2x3.hpp \
@@ -1269,6 +1283,12 @@ CMakeFiles/RayTracer.out.dir/RayTracer.cpp.o: /csse/users/ige22/Desktop/COSC363-
   /usr/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/include/glm/ext/matrix_float4x4.hpp \
   /usr/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/include/glm/ext/matrix_projection.hpp \
+  /usr/include/glm/ext/matrix_projection.inl \
+  /usr/include/glm/ext/matrix_transform.hpp \
+  /usr/include/glm/ext/matrix_transform.inl \
+  /usr/include/glm/ext/scalar_constants.hpp \
+  /usr/include/glm/ext/scalar_constants.inl \
   /usr/include/glm/ext/scalar_int_sized.hpp \
   /usr/include/glm/ext/scalar_uint_sized.hpp \
   /usr/include/glm/ext/vector_bool2.hpp \
@@ -1304,6 +1324,10 @@ CMakeFiles/RayTracer.out.dir/RayTracer.cpp.o: /csse/users/ige22/Desktop/COSC363-
   /usr/include/glm/fwd.hpp \
   /usr/include/glm/geometric.hpp \
   /usr/include/glm/glm.hpp \
+  /usr/include/glm/gtc/constants.hpp \
+  /usr/include/glm/gtc/constants.inl \
+  /usr/include/glm/gtc/matrix_transform.hpp \
+  /usr/include/glm/gtc/matrix_transform.inl \
   /usr/include/glm/integer.hpp \
   /usr/include/glm/mat2x2.hpp \
   /usr/include/glm/mat2x3.hpp \
@@ -2046,6 +2070,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
   /usr/include/glm/detail/type_vec4.hpp \
   /usr/include/glm/detail/type_vec4.inl \
   /usr/include/glm/exponential.hpp \
+  /usr/include/glm/ext/matrix_clip_space.hpp \
+  /usr/include/glm/ext/matrix_clip_space.inl \
   /usr/include/glm/ext/matrix_double2x2.hpp \
   /usr/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/include/glm/ext/matrix_double2x3.hpp \
@@ -2082,6 +2108,12 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
   /usr/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/include/glm/ext/matrix_float4x4.hpp \
   /usr/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/include/glm/ext/matrix_projection.hpp \
+  /usr/include/glm/ext/matrix_projection.inl \
+  /usr/include/glm/ext/matrix_transform.hpp \
+  /usr/include/glm/ext/matrix_transform.inl \
+  /usr/include/glm/ext/scalar_constants.hpp \
+  /usr/include/glm/ext/scalar_constants.inl \
   /usr/include/glm/ext/scalar_int_sized.hpp \
   /usr/include/glm/ext/scalar_uint_sized.hpp \
   /usr/include/glm/ext/vector_bool2.hpp \
@@ -2117,6 +2149,10 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
   /usr/include/glm/fwd.hpp \
   /usr/include/glm/geometric.hpp \
   /usr/include/glm/glm.hpp \
+  /usr/include/glm/gtc/constants.hpp \
+  /usr/include/glm/gtc/constants.inl \
+  /usr/include/glm/gtc/matrix_transform.hpp \
+  /usr/include/glm/gtc/matrix_transform.inl \
   /usr/include/glm/integer.hpp \
   /usr/include/glm/mat2x2.hpp \
   /usr/include/glm/mat2x3.hpp \
@@ -2310,10 +2346,6 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
 /usr/include/c++/13/bits/basic_string.h:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
@@ -2388,6 +2420,20 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 
 /csse/users/ige22/Desktop/COSC363-new/Assignment_2/Plane.h:
 
+/csse/users/ige22/Desktop/COSC363-new/Assignment_2/Plane.cpp:
+
+/usr/include/glm/gtc/constants.hpp:
+
+/usr/include/glm/ext/scalar_constants.inl:
+
+/usr/include/glm/ext/matrix_projection.inl:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/glm/ext/matrix_projection.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
 /usr/include/glm/ext/matrix_float4x2.hpp:
@@ -2395,6 +2441,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 /usr/include/glm/ext/matrix_float4x3_precision.hpp:
 
 /usr/include/glm/ext/matrix_float3x4_precision.hpp:
+
+/usr/include/glm/ext/matrix_transform.inl:
 
 /usr/include/glm/ext/matrix_float3x3.hpp:
 
@@ -2441,6 +2489,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 /usr/include/glm/ext/matrix_double2x4.hpp:
 
 /usr/include/c++/13/climits:
+
+/usr/include/glm/gtc/matrix_transform.hpp:
 
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
@@ -2500,6 +2550,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 
 /usr/include/glm/detail/type_mat2x3.inl:
 
+/usr/include/glm/gtc/matrix_transform.inl:
+
 /usr/include/glm/detail/type_mat2x3.hpp:
 
 /usr/include/glm/detail/qualifier.hpp:
@@ -2520,6 +2572,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 
 /usr/include/glm/ext/vector_int2.hpp:
 
+/usr/include/glm/ext/matrix_transform.hpp:
+
 /usr/include/c++/13/cstdint:
 
 /usr/include/c++/13/ext/type_traits.h:
@@ -2533,6 +2587,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 /usr/include/glm/ext/vector_bool3_precision.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/glm/gtc/constants.inl:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
@@ -2563,6 +2619,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 /usr/include/c++/13/bits/functexcept.h:
 
 /csse/users/ige22/Desktop/COSC363-new/Assignment_2/Ray.h:
+
+/usr/include/glm/ext/matrix_clip_space.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -2651,6 +2709,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 /usr/include/glm/ext/scalar_uint_sized.hpp:
 
 /usr/include/glm/ext/vector_float2.hpp:
+
+/usr/include/glm/ext/matrix_clip_space.inl:
 
 /usr/include/glm/detail/setup.hpp:
 
@@ -2878,6 +2938,8 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 
 /usr/include/stdint.h:
 
+/usr/include/glm/ext/scalar_constants.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/glm/detail/type_mat4x3.inl:
@@ -3005,5 +3067,3 @@ CMakeFiles/RayTracer.out.dir/Torus.cpp.o: /csse/users/ige22/Desktop/COSC363-new/
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
 /csse/users/ige22/Desktop/COSC363-new/Assignment_2/Cylinder.cpp:
-
-/csse/users/ige22/Desktop/COSC363-new/Assignment_2/Plane.cpp:

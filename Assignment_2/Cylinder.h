@@ -2,7 +2,6 @@
 #define H_CYLINDER
 #include <glm/glm.hpp>
 #include "SceneObject.h"
-
 #include <glm/gtc/matrix_transform.hpp>
 
 class Cylinder : public SceneObject {
